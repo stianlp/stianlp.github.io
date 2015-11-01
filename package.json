@@ -1,11 +1,10 @@
 {
-  "name": "base",
+  "name": "stianlp",
   "version": "0.0.0",
-  "description": "Base project with express, bower, bootstrap, angularjs",
-  "main": "index.js",
+  "description": "Stian Lind Petlund website",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stianlp/base.git"
+    "url": "git://github.com/stianlp/stianlp.github.io.git"
   },
   "scripts": {
     "start": "node server.js"

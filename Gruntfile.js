@@ -8,9 +8,9 @@ module.exports = function (grunt) {
         },
         copy: {
             build: {
-                src: ['package.json', 'server.js', 'index.html', 'css/**/*', 'img/**/*',
+                src: ['index.html', 'css/**/*', 'img/**/*',
                     'js/**/*', 'views/**/*', 'bower.json', 'bower_components/**/*'],
-                dest: 'dist/slp/'
+                dest: 'dist/'
             },
         },
         watch: {
