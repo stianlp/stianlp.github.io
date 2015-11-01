@@ -1,0 +1,25 @@
+{
+  "name": "base",
+  "version": "0.0.0",
+  "description": "Base project with express, bower, bootstrap, angularjs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stianlp/base.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Stian Lind Petlund",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.1"
+  },
+  "devDependencies": {
+      "grunt": "^0.4.5",
+      "grunt-contrib-clean": "^0.6.0",
+      "grunt-contrib-copy": "^0.7.0",
+      "grunt-contrib-watch": "^0.6.1",
+      "grunt-text-replace": "^0.4.0"
+    }
+}
